@@ -25,7 +25,7 @@ html,body{margin:0;padding:0;font-family:Inter, "Segoe UI", Tahoma, sans-serif;c
 
 .hero{padding:40px 0 60px;display:flex;flex-direction:column;gap:24px}
 .hero-card{background:linear-gradient(180deg, rgba(168,216,255,0.9), rgba(255,255,255,0.85));padding:28px;border-radius:14px;box-shadow:0 8px 20px rgba(79,102,128,0.06)}
-.hero-card h2{margin:0 0 8px;font-size:24px}
+.hero-card h2{margin:0 0 8px;font-size:24px; color: #003366;}
 .cta{margin-top:12px;display:flex;gap:10px}
 .btn{background:var(--blue-dark);color:white;padding:10px 14px;border-radius:10px;text-decoration:none}
 .btn-outline{background:transparent;border:2px solid var(--blue-dark);color:var(--blue-dark)}
@@ -55,3 +55,4 @@ input,textarea{padding:10px;border-radius:8px;border:1px solid rgba(0,0,0,0.08);
 
 /* French / LTR tweaks */
 html[lang="fr"], html[lang="en"]{direction:ltr}
+
