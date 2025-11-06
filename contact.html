@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>اتصل بنا - نادي الإعلام الآلي</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="theme-blue">
+  <header class="site-header small">
+    <div class="container header-grid">
+      <div class="brand">
+        <img src="assets/img/logo.svg" alt="logo" class="logo">
+        <div class="school-names">
+          <h1 class="arabic">ثانوية حساني محمد - بريرة</h1>
+        </div>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" data-i18n="home_ar">الرئيسية</a></li>
+          <li><a href="activities.html" data-i18n="activities_ar">الأنشطة</a></li>
+          <li><a href="contact.html" class="active" data-i18n="contact_ar">اتصل بنا</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <button id="langToggle3" title="تبديل اللغة / Changer la langue">Français</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h2 data-i18n="contact_heading_ar">اتصل بنا</h2>
+    <p data-i18n="contact_intro_ar">للانضمام أو طرح سؤال، اتصل بمسؤول النادي.</p>
+
+    <div class="contact-cards">
+      <div class="card">
+        <h4>المشرف</h4>
+        <p>الأستاذ: فوزي تميزار</p>
+        <p>البريد الإلكتروني: prof.informatique02@gmail.com</p>
+      </div>
+      <div class="card">
+        <h4>الموقع</h4>
+        <p>ثانوية حساني محمد - بريرة</p>
+      </div>
+    </div>
+
+    <form class="contact-form" onsubmit="fakeSubmit(event)">
+      <label>الاسم</label>
+      <input type="text" placeholder="اسمك" required>
+      <label>البريد الإلكتروني</label>
+      <input type="email" placeholder="email@example.com" required>
+      <label>الرسالة</label>
+      <textarea placeholder="نص الرسالة..." required></textarea>
+      <button class="btn" type="submit">أرسل</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4 data-i18n="contact_title_ar">معلومات الاتصال</h4>
+        <p>ثانوية حساني محمد - بريرة</p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year3"></span> نادي الإعلام الآلي</p>
+  </footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
